@@ -34,4 +34,6 @@ In above case, ContactInfo can also resolve /contact/japan which we don’t want
       <Route path={ `${props.match.url}/:location(india|us)` }
       component={ ContactInfo }/>
       
-      
+Ref Doc
+
+https://medium.com/jspoint/basics-of-react-router-v4-336d274fd9e0 
