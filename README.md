@@ -55,4 +55,6 @@ Let’s now move our attention to admin route. We don’t want use to see Admin 
 One thing to remember here is Redirect component will redirect user only in rendering phase which means when component is mounting, React will bootstrap Redirect component and Redirect component will do something in background to navigate user away from current location. Redirect component is not useful when you have to programatically redirect user after component is mounted, that’s where history props comes into play.
 You can also see that ADMIN NavLink is not active because we were redirected to /login route (which renders Login component) and there is no NavLink for that. Redirect component’s to prop is used here to tell React Router where to redirect the user. to prop can also be an Object {pathname: ‘/login’, state: {…}} where state is any payload you want to pass to Login component as prop which is accessible from props.location.state inside Login component.
 
+# Ref Doc
 
+https://medium.com/jspoint/basics-of-react-router-v4-336d274fd9e0
