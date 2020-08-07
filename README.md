@@ -2,7 +2,7 @@
 dynamic variable path in URL
 
 
-# NavLink
+# NavLink (a Route with a dynamic param)
 
  A Route can have a path that is dynamic or follow regex like pattern. For example, a Route can render a component if path is /about/xyz but xyz can be any variable string. This string is called as parameter and passed down to the component in match prop inside params object. If you want to introduce a Route with a dynamic parameter, then that parameter start with the colon : in the path like /about/:xyz so that React Router understands that xyz is a dynamic parameter.
  
